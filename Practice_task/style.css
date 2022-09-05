@@ -1,0 +1,44 @@
+h2
+{
+	background-color: lightskyblue;
+	display: block;
+	border-width: 10px;
+	border-style: solid;
+	border-color: lightskyblue;
+
+}
+em
+{
+	color: darkred;
+	font-style: normal;
+}
+#colour
+{
+	color: blue;
+}
+#Tr_colour
+{
+	background-color: lightgray;
+	color: darkgreen;
+}
+#Tr_1
+{
+	text-align: center;
+	column-span: 3px;
+}
+img
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+	height: 300px;
+	margin-top: 77px;
+	margin-right: 10px;
+}
+table,tr,td,th
+{
+	border: 1px solid black;
+	padding: 2px;
+	border-spacing: 0px;
+}
