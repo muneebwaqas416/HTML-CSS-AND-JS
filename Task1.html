@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task 1</title>
+	<link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+<h1 >Travel reservation form</h1>
+<h2>* denotes mandotory</h2>
+<form>
+	<label for="fname">First Name*:</label>
+	<br>
+	<input type="text" id ="fname" name="fname" placeholder="firstname lastname"><br>
+	<label for="email address">Email Address*:</label>
+	<br>
+	<input type="text" id ="email address" name="email address" placeholder="email"><br>
+	<label>Select Tour Package*:</label>
+	<br>
+	<input list="Packages">
+	<datalist id="Packages">
+		<option value ="Goa"></option>
+		<option value ="Banglore"></option>
+		<option value ="indore"></option>
+		<option value ="Delhi"></option>
+	</datalist>
+	<br>
+	<label for="date">Arrival Date*:</label><br>
+	<input type="text" id="date" name="date" placeholder="dd/mm/yyyy"><br>
+	<label for="person">Number of Person*:</label><br>
+	<input type="text" id="person" name="person"placeholder="UNKNOWN_TYPE"><br>
+	<label style="font-size: 20px;">What would you want to avail?*</label><br>
+	<label for="Boarding">Boarding</label>
+	<input type="checkbox" name="Boarding" id="Boarding"><br>
+	<label for="Fooding">Fooding</label>
+	<input type="checkbox" name="Fooding" id="Fooding"><br>
+	<label for="Sight seeing">Sight seeing</label>
+	<input type="checkbox" name="Sight seeing" id="Sight seeing"><br>
+	<label for="Dicount">Discount coupen code:</label><br>
+	<input type="text" name="Discount" id="Discount" placeholder="Code"><br>
+	<label for="Terms">Terms and Condition:*</label><br>
+	<label for="I Agree">I agree</label>
+	<input type="radio" name="I Agree" id="I Agree">
+		<label  for="I disAgree">I disagree</label>
+	<input type="radio" name="I disAgree" id="I disAgree"><br>
+	<input type="Submit" value="Complete Reservation">
+</form>
+</body>
+</html>
